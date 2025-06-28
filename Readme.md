@@ -47,7 +47,7 @@ Make sure you have the following installed on your system:
 
 ```bash
 git clone https://github.com/lakshaypunia/expense-tracker-app
-cd expense-tracker
+cd expense-tracker-app
 ```
 
 ### 2. Backend Setup
@@ -92,7 +92,7 @@ VITE_API_URL = "http://localhost:5000/api/expenses"
 
 **For Production Deployment:**
 ```env
-REACT_APP_API_BASE_URL=https://your-deployed-backend-url.com
+VITE_API_URL=https://your-deployed-backend-url.com/api/expenses
 ```
 
 #### Start the Frontend Application
@@ -131,7 +131,7 @@ Once both servers are running:
 
 1. Update the `.env` file in the frontend folder:
    ```env
-   REACT_APP_API_BASE_URL=https://your-deployed-backend-url.com
+   VITE_API_URL=https://your-deployed-backend-url.com/api/expenses
    ```
 2. Build the frontend:
    ```bash
